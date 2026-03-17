@@ -60,13 +60,13 @@ export default function Store() {
         </div>
         <div className="product-grid">
           {[
-            { img: 'https://amsducati.com/media/catalog/product/cache/ecf3b402d247268b03d0536e3aa16735/2/5/25_jacket.jpg', name: 'Bagnaia Race Jacket — Ducati Lenovo 2026', price: '$189', badge: 'BESTSELLER', badgeCls: 'badge-best' },
-            { img: 'https://m.media-amazon.com/images/I/81H5Zct7n9L._AC_UF1000,1000_QL80_.jpg', name: 'Official Ducati Racing Cap', price: '$45' },
+            { img: '/images/race_jacket.png', name: 'Bagnaia Race Jacket — Ducati Lenovo 2026', price: '$189', badge: 'BESTSELLER', badgeCls: 'badge-best' },
+            { img: '/images/cap_merch.png', name: 'Official Ducati Racing Cap', price: '$45' },
             { img: '🎫', name: 'Austin GP Grandstand — Turn 1', price: '$320', badge: 'GP TICKET', badgeCls: 'badge-ticket' },
-            { img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Sn998CeKVXuHfU9fnoq5ULIWwoUYS-C5vw&s', name: 'Marquez #93 Shoei Helmet Replica', price: '$289', badge: 'AR TRY-ON', badgeCls: 'badge-ar' },
+            { img: '/images/replica_helmet.png', name: 'Marquez #93 Shoei Helmet Replica', price: '$289', badge: 'AR TRY-ON', badgeCls: 'badge-ar' },
             { img: 'https://www.diadora.com/dw/image/v2/BBPK_PRD/on/demandware.static/-/Sites-diadora-master/default/dwa02266b2/images/hi-res/102.183659_D0167_00_HR.jpg?sw=1920', name: 'Ducati Factory Team Polo 2026', price: '$79' },
-            { img: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=400&q=80', name: 'Collectible Desmosedici GP26 Diecast 1:18', price: '$149', badge: 'BESTSELLER', badgeCls: 'badge-best' },
-            { img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=400&q=80', name: 'VIP Paddock Pass — Full Weekend Access', price: '$890', badge: 'GP TICKET', badgeCls: 'badge-ticket' },
+            { img: '/images/bike_visual.png', name: 'Collectible Desmosedici GP26 Diecast 1:18', price: '$149', badge: 'BESTSELLER', badgeCls: 'badge-best' },
+            { img: '/images/paddock_pass.png', name: 'VIP Paddock Pass — Full Weekend Access', price: '$890', badge: 'GP TICKET', badgeCls: 'badge-ticket' },
             { img: 'https://i.ebayimg.com/images/g/TyEAAOSwvLNn~8V-/s-l400.jpg', name: 'Bagnaia #1 Signature Cap — Ltd Edition', price: '$55' },
           ].map((p, i) => (
             <div key={i} className="product-card">

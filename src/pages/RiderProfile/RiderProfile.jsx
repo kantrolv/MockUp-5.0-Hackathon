@@ -9,7 +9,7 @@ export default function RiderProfile() {
         {/* Hero */}
         <div className="rp-hero">
           <div className="hero-strip" />
-          <div className="hero-photo"><div className="hero-photo-grid" /><img src="https://images.unsplash.com/photo-1591637333184-19aa84bcee9a?auto=format&fit=crop&w=800&q=80" alt="Bagnaia" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', mixBlendMode: 'luminosity', opacity: 0.6 }} /></div>
+          <div className="hero-photo"><div className="hero-photo-grid" /><img src="/images/rider_bagnaia.png" alt="Bagnaia" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', mixBlendMode: 'luminosity', opacity: 0.6 }} /></div>
           <div className="hero-ghost">#1</div>
           <div className="hero-content">
             <div className="hero-flag">
@@ -100,7 +100,7 @@ export default function RiderProfile() {
             <div className="gcard">
               <div className="gc-label-rp">Current Machinery</div>
               <div className="bike-title-label">2026 Desmosedici GP26</div>
-              <div className="bike-visual"><img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80" alt="Bike" style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center', padding: '10px', opacity: 0.7 }} /></div>
+              <div className="bike-visual"><img src="/images/bike_visual.png" alt="Bike" style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center', padding: '10px', opacity: 0.7 }} /></div>
               <div className="spec-list">
                 {[['999cc V4 Engine','90° V-CONFIG'],['330+ km/h Top Speed','LUSAIL 2026'],['Seamless Shift Gearbox','6-SPEED'],['Full Carbon Aero Package','GP26 SPEC']].map(([text,sub]) => (
                   <div key={text} className="spec-row"><div className="spec-dot" /><div className="spec-line" /><div className="spec-text">{text}</div><div className="spec-sub">{sub}</div></div>
@@ -126,7 +126,7 @@ export default function RiderProfile() {
             <div className="gcard">
               <div className="merch-title"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{marginRight:'4px'}}><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg> Shop Pecco's Gear</div>
               <div className="merch-row">
-                {[{ img: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=400&q=80', name: 'Pecco #1 Cap', price: '$55' }, { img: 'https://fueler.store/cdn/shop/files/Replica-Softshell-Jacket.jpg?v=1769109639&width=1080', name: 'Race Jacket 2026', price: '$189' }, { img: 'https://superbikestore.in/cdn/shop/products/X803RSUC_MOTOGP_31.jpg?v=1652012079', name: 'Replica Helmet', price: '$349' }].map(m => (
+                {[{ img: '/images/cap_merch.png', name: 'Pecco #1 Cap', price: '$55' }, { img: '/images/race_jacket.png', name: 'Race Jacket 2026', price: '$189' }, { img: '/images/replica_helmet.png', name: 'Replica Helmet', price: '$349' }].map(m => (
                   <div key={m.name} className="merch-card">
                     <div className="merch-img"><img src={m.img} alt={m.name} style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center', padding: '6px' }} /></div>
                     <div className="merch-info"><div className="merch-name">{m.name}</div><div className="merch-price">{m.price}</div></div>

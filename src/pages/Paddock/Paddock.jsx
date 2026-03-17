@@ -128,7 +128,7 @@ export default function Paddock() {
             {/* Fan Pulse */}
             <div className="glass-card">
               <div className="gc-label">Fan Pulse</div>
-              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 16, letterSpacing: 2, color: 'var(--text-primary)', marginBottom: 4 }}>Live Reactions</div>
+              <div style={{ fontFamily: "'Outfit', sans-serif", fontSize: 16, letterSpacing: 2, color: 'var(--text-primary)', marginBottom: 4 }}>Live Reactions</div>
               <div className="fan-desc">158K fans reacted during Qatar GP</div>
               <div className="reaction-list">
                 {[
