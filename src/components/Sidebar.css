@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 20px;
   color: #fff;
   letter-spacing: 1px;
@@ -48,14 +48,14 @@
 }
 
 .logo-text .brand {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 17px;
   letter-spacing: 2px;
   color: var(--text-primary);
 }
 
 .logo-text .sub {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Tektur', sans-serif;
   font-size: 8px;
   color: var(--text-secondary);
   letter-spacing: 1.5px;
@@ -132,7 +132,7 @@
 }
 
 .race-mode-label {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Tektur', sans-serif;
   font-size: 9px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -159,7 +159,7 @@
 .race-mode-status {
   font-size: 9px;
   color: rgba(0,168,255,0.6);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Tektur', sans-serif;
   letter-spacing: 1px;
   margin-top: 1px;
 }
@@ -229,7 +229,7 @@
 }
 
 .user-info .ufav {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Tektur', sans-serif;
   font-size: 9px;
   color: var(--accent-blue);
   letter-spacing: 0.5px;

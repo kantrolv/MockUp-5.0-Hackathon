@@ -31,11 +31,11 @@
   background: #FFF; flex-shrink: 0;
 }
 .news-cockpit-title {
-  font-family: 'Bebas Neue', sans-serif; font-size: 28px;
+  font-family: 'Outfit', sans-serif; font-size: 28px;
   letter-spacing: 4px; color: #0D0D0D; line-height: 1;
 }
 .news-cockpit-sub {
-  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  font-family: 'Tektur', sans-serif; font-size: 11px;
   color: #6B6B6B; letter-spacing: 1px; margin-top: 3px;
 }
 .race-mode-pill {
@@ -44,7 +44,7 @@
   cursor: pointer; transition: all .18s;
 }
 .race-mode-pill:hover { background: #222; }
-.race-mode-pill span { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; color: #fff; letter-spacing: 0.5px; }
+.race-mode-pill span { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; color: #fff; letter-spacing: 0.5px; }
 .pill-bolt { font-size: 13px; }
 
 /* Video */
@@ -67,7 +67,7 @@
 }
 .nvid-label {
   position: absolute; top: 14px; left: 16px; z-index: 3;
-  font-family: 'JetBrains Mono', monospace; font-size: 9px;
+  font-family: 'Tektur', sans-serif; font-size: 9px;
   letter-spacing: 2px; color: rgba(255,255,255,0.5); text-transform: uppercase;
   background: rgba(0,0,0,0.4); padding: 4px 8px; border-radius: 4px;
 }
@@ -84,12 +84,12 @@
 }
 .nplay-btn svg { width: 22px; height: 22px; fill: #0D0D0D; margin-left: 4px; }
 .nplay-label {
-  font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700;
   color: rgba(255,255,255,0.9); letter-spacing: 0.5px;
 }
 .nvid-bottom { position: absolute; bottom: 16px; left: 16px; z-index: 3; }
-.nvid-race-label { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 3px; color: #fff; }
-.nvid-race-sub { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: rgba(255,255,255,0.5); letter-spacing: 1.5px; margin-top: 2px; }
+.nvid-race-label { font-family: 'Outfit', sans-serif; font-size: 22px; letter-spacing: 3px; color: #fff; }
+.nvid-race-sub { font-family: 'Tektur', sans-serif; font-size: 9px; color: rgba(255,255,255,0.5); letter-spacing: 1.5px; margin-top: 2px; }
 
 /* Tabs */
 .news-content-tabs {
@@ -113,9 +113,9 @@
   border: 1px solid #E5E5E5; box-shadow: 0 1px 4px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.04);
 }
 .rc-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
-.rc-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 3px; color: #0D0D0D; }
+.rc-title { font-family: 'Outfit', sans-serif; font-size: 22px; letter-spacing: 3px; color: #0D0D0D; }
 .rc-badge {
-  background: #E8002D; color: #fff; font-family: 'JetBrains Mono', monospace;
+  background: #E8002D; color: #fff; font-family: 'Tektur', sans-serif;
   font-size: 8px; letter-spacing: 2px; padding: 4px 9px; border-radius: 4px; font-weight: 700;
 }
 .podium-row { display: flex; gap: 12px; margin-bottom: 18px; }
@@ -124,14 +124,14 @@
   background: #F8F8F8; border: 1px solid #E5E5E5; text-align: center;
 }
 .podium-item:first-child { border-color: #FFD700; background: rgba(255,215,0,0.04); }
-.podium-pos { font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; color: #6B6B6B; }
+.podium-pos { font-family: 'Outfit', sans-serif; font-size: 40px; line-height: 1; color: #6B6B6B; }
 .podium-item:first-child .podium-pos { color: #B8960A; }
 .podium-name { font-size: 13px; font-weight: 700; color: #0D0D0D; margin-top: 4px; }
 .podium-team { font-size: 10px; color: #6B6B6B; margin-top: 2px; }
-.podium-time { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #6B6B6B; margin-top: 6px; }
+.podium-time { font-family: 'Tektur', sans-serif; font-size: 10px; color: #6B6B6B; margin-top: 6px; }
 .result-meta { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; padding-top: 16px; border-top: 1px solid #E5E5E5; }
 .rmeta-cell { text-align: center; }
-.rmeta-val { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #0D0D0D; }
+.rmeta-val { font-family: 'Tektur', sans-serif; font-size: 15px; font-weight: 700; color: #0D0D0D; }
 .rmeta-lbl { font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #6B6B6B; margin-top: 3px; }
 
 /* Coming Up */
@@ -146,12 +146,12 @@
   background: rgba(255,255,255,0.04);
 }
 .coming-eyebrow {
-  font-family: 'JetBrains Mono', monospace; font-size: 9px;
+  font-family: 'Tektur', sans-serif; font-size: 9px;
   letter-spacing: 2.5px; text-transform: uppercase;
   color: rgba(255,255,255,0.45); margin-bottom: 8px;
 }
 .coming-title {
-  font-family: 'Bebas Neue', sans-serif; font-size: 40px;
+  font-family: 'Outfit', sans-serif; font-size: 40px;
   letter-spacing: 4px; color: #fff; line-height: 1; margin-bottom: 8px;
 }
 .coming-date { font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 16px; }
@@ -173,19 +173,19 @@
 }
 .nrs-block { padding: 20px; border-bottom: 1px solid #E5E5E5; }
 .nrs-block:last-child { border-bottom: none; }
-.nrs-title { font-family: 'Bebas Neue', sans-serif; font-size: 17px; letter-spacing: 2.5px; color: #0D0D0D; margin-bottom: 14px; }
+.nrs-title { font-family: 'Outfit', sans-serif; font-size: 17px; letter-spacing: 2.5px; color: #0D0D0D; margin-bottom: 14px; }
 .standings-table { width: 100%; border-collapse: collapse; }
 .standings-table th {
-  font-family: 'JetBrains Mono', monospace; font-size: 8px;
+  font-family: 'Tektur', sans-serif; font-size: 8px;
   letter-spacing: 1.5px; text-transform: uppercase; color: #6B6B6B;
   text-align: left; padding: 0 6px 10px; font-weight: 500;
 }
 .standings-table td { padding: 9px 6px; border-top: 1px solid #E5E5E5; font-size: 12px; vertical-align: middle; }
 .standings-table tr:first-child td { border-top: none; }
-.s-pos { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: #6B6B6B; width: 28px; }
+.s-pos { font-family: 'Outfit', sans-serif; font-size: 18px; color: #6B6B6B; width: 28px; }
 .s-bar { width: 4px; height: 20px; border-radius: 2px; display: inline-block; }
 .s-name { font-weight: 700; color: #0D0D0D; padding-left: 6px; }
-.s-pts { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #0D0D0D; font-weight: 700; text-align: right; }
+.s-pts { font-family: 'Tektur', sans-serif; font-size: 11px; color: #0D0D0D; font-weight: 700; text-align: right; }
 .leader-row td { background: rgba(255,215,0,0.04); }
 .leader-row .s-pos { color: #B8960A; }
 
@@ -197,7 +197,7 @@
 .news-item-n:last-child { border-bottom: none; }
 .news-item-n:hover .news-hl-n { color: #E8002D; }
 .news-hl-n { font-size: 13px; font-weight: 600; color: #0D0D0D; line-height: 1.4; transition: color .15s; }
-.news-meta-n { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: #6B6B6B; letter-spacing: 0.5px; display: flex; gap: 8px; }
+.news-meta-n { font-family: 'Tektur', sans-serif; font-size: 9px; color: #6B6B6B; letter-spacing: 0.5px; display: flex; gap: 8px; }
 
 /* Calendar */
 .cal-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #E5E5E5; }
@@ -207,13 +207,13 @@
   display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0;
   border: 1px solid #E5E5E5;
 }
-.cal-day { font-family: 'Bebas Neue', sans-serif; font-size: 20px; line-height: 1; color: #0D0D0D; }
-.cal-mon { font-family: 'JetBrains Mono', monospace; font-size: 7px; letter-spacing: 1px; color: #6B6B6B; text-transform: uppercase; }
+.cal-day { font-family: 'Outfit', sans-serif; font-size: 20px; line-height: 1; color: #0D0D0D; }
+.cal-mon { font-family: 'Tektur', sans-serif; font-size: 7px; letter-spacing: 1px; color: #6B6B6B; text-transform: uppercase; }
 .cal-race { font-size: 13px; font-weight: 700; color: #0D0D0D; }
 .cal-circuit { font-size: 11px; color: #6B6B6B; margin-top: 2px; }
 .cal-next {
   display: inline-block; margin-top: 3px;
-  font-family: 'JetBrains Mono', monospace; font-size: 9px;
+  font-family: 'Tektur', sans-serif; font-size: 9px;
   color: #E8002D; background: rgba(232,0,45,0.07);
   border: 1px solid rgba(232,0,45,0.15); padding: 2px 7px;
   border-radius: 3px; letter-spacing: 0.5px;
