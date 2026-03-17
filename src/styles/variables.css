@@ -1,29 +1,29 @@
 :root {
   /* Backgrounds */
-  --bg-carbon: #0D0D0D;
-  --bg-carbon-light: #111111;
-  --bg-carbon-mid: #161616;
+  --bg-carbon: #050608;
+  --bg-carbon-light: #111216;
+  --bg-carbon-mid: #0B0C10;
 
   /* Accent Colors */
-  --accent-blue: #00A8FF;
-  --accent-blue-hover: #33BBFF;
-  --accent-blue-dim: rgba(0,168,255,0.12);
-  --accent-blue-glow: rgba(0,168,255,0.35);
-  --accent-red: #E8002D;
-  --accent-red-dim: rgba(232,0,45,0.18);
-  --accent-red-glow: rgba(232,0,45,0.5);
-  --purple-sector: #9B30FF;
-  --purple-dim: rgba(155,48,255,0.2);
-  --gold-leader: #FFD700;
-  --gold-dim: rgba(255,215,0,0.15);
-  --amber: #F59E0B;
-  --green: #5EFF9C;
+  --accent-blue: #00D2FF;
+  --accent-blue-hover: #33DDFF;
+  --accent-blue-dim: rgba(0,210,255,0.12);
+  --accent-blue-glow: rgba(0,210,255,0.35);
+  --accent-red: #FC0038;
+  --accent-red-dim: rgba(252,0,56,0.18);
+  --accent-red-glow: rgba(252,0,56,0.5);
+  --purple-sector: #B446FF;
+  --purple-dim: rgba(180,70,255,0.2);
+  --gold-leader: #FFDF00;
+  --gold-dim: rgba(255,223,0,0.15);
+  --amber: #FF9F1C;
+  --green: #2ED175;
 
   /* Surfaces */
-  --card-surface: rgba(255,255,255,0.055);
-  --card-border: rgba(255,255,255,0.09);
-  --card-border-hover: rgba(255,255,255,0.18);
-  --card-border-bright: rgba(255,255,255,0.16);
+  --card-surface: rgba(255,255,255,0.03);
+  --card-border: rgba(255,255,255,0.08);
+  --card-border-hover: rgba(255,255,255,0.2);
+  --card-border-bright: rgba(255,255,255,0.18);
 
   /* Text */
   --text-primary: #F5F5F5;

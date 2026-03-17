@@ -15,7 +15,7 @@ html {
 body {
   background: var(--bg-carbon);
   color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
 }
